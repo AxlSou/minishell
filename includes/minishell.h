@@ -161,9 +161,11 @@ void	ft_pwd(t_msh *msh);
 void	ft_exit(t_msh *msh);
 void	cd(t_msh *msh);
 void	export(t_msh *msh);
-
 //-------------ONE CMD---------//
-void	one_cmd(t_msh *msh, char **env);
+void	one_cmd(t_msh *msh, char **env, t_cmd *cmd);
+void	one_cmd_handler(t_msh *msh);
+//------------MULTI CMD--------//
+void    multiple_cmds(t_msh *msh);
 //---------------PATH----------//
 char	**get_path(t_msh *msh);
 

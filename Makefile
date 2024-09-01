@@ -41,6 +41,7 @@ src/executor/exit.c \
 src/executor/cd.c \
 src/executor/export.c \
 src/executor/export_utils.c \
+src/executor/multiple_cmds.c \
 
 CC = clang
 
